@@ -1,0 +1,169 @@
+/* 
+    Created on : 16/03/2020, 21:12:06
+    Author     : mauriciogonzatto
+*/
+
+/* É possível aplicar estilos aos elementos
+   chamando seletores pelos nomes das tags */
+body{
+    background-color: #CCCCCC;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    max-width: 900px;
+    border:solid;
+    border-color: #FFFFFF;
+}
+
+header{
+    background-color: #abd5e3;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Seletor aplicado com hierarquia */
+/* estilo será aplicado apenas aos h2 que sejam 
+   filhos de header */
+header h2{
+    margin: 0px;
+}
+
+h1{
+    font-size: 72px;
+    margin:0px;
+}
+
+h2{
+    font-size: 24px;
+    margin:0px;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    display:block;
+    width:25%;
+    float:left;
+}
+
+/*
+    Seletor para hierarquia de elementos 
+    baseado em estado
+*/
+nav a {
+    color: rgb(226, 226, 226)
+}
+
+nav a:link, nav a:visited {
+    display:block;
+    border-bottom: 3px solid #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+
+nav a:hover{
+    color:white;
+    background-color: #F47D31;
+}
+
+nav h3{
+    margin:15px;
+    color: white;
+}
+
+/* 
+    Aplicação de seletor por ID do elemento
+    utiliza-se o caracter # (jogo da velha) e o ID do elemento
+*/
+#container{
+    background-color: #888;
+}
+
+section{
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+article{
+    background-color: #eee;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+article header{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+article footer{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;    
+}
+
+article h1{
+    font-size: 18px;
+}
+
+aside{
+    display: block;
+    width: 25%;
+    float:left;
+}
+
+aside h3{
+    margin: 15px;
+    color: white;
+}
+
+aside p a {
+    color: white;
+}
+
+aside p{
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    display: block;
+    background-color: #abd5e3;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+}
+
+footer h2{
+    font-size:14px;
+    color:white;
+}
+
+/* links */
+a {
+    color: #497888;
+}
+
+a:hover{
+    text-decoration: underline;
+}
